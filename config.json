@@ -1,0 +1,57 @@
+{
+  "server": {
+    "port": 3551,
+    "name": "Prisma Backend",
+    "version": "15.00",
+    "season": 5,
+    "chapter": 2
+  },
+  "gameplay": {
+    "vbucksPerKill": 10,
+    "vbucksPerWin": 100,
+    "vbucksPerTop10": 25,
+    "vbucksPerTop25": 10,
+    "startingVbucks": 1000,
+    "dailyLoginBonus": 50
+  },
+  "shop": {
+    "rotationHours": 24,
+    "featuredItemsCount": 6,
+    "dailyItemsCount": 8,
+    "autoRotate": true
+  },
+  "arena": {
+    "enabled": true,
+    "divisions": [
+      { "name": "Open League", "minPoints": 0, "maxPoints": 499 },
+      { "name": "Contender League", "minPoints": 500, "maxPoints": 1999 },
+      { "name": "Champion League", "minPoints": 2000, "maxPoints": 9999 }
+    ],
+    "pointsPerKill": 20,
+    "pointsPerWin": 100,
+    "pointsPerTop10": 60,
+    "pointsPerTop25": 30
+  },
+  "tournaments": {
+    "enabled": true,
+    "maxPlayersPerTournament": 100,
+    "defaultDuration": 180
+  },
+  "seasonal": {
+    "autoReset": true,
+    "resetDay": 1,
+    "keepVbucks": false,
+    "keepCosmetics": true
+  },
+  "matchmaker": {
+    "maxPlayersPerMatch": 100,
+    "minPlayersToStart": 2,
+    "waitTimeSeconds": 30,
+    "skillBasedMatchmaking": true
+  },
+  "discord": {
+    "commandPrefix": "!",
+    "enableCommands": true,
+    "enableAuth": true
+  }
+}
